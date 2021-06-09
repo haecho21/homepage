@@ -1,0 +1,70 @@
+/* ver 210604*/
+
+
+
+
+/* font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Noto Serif KR', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Song Myung', serif;
+ */
+
+@import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSMyungjo.woff');
+/* font-family: 'DOSMyungjo',normal*/
+
+body {
+    font-family: "Noto Serif KR", sans-serif;
+    font-weight: 400;
+    color: #272829;
+    font-size: 1.3em;
+    /* padding: 20px; */
+    margin:0%;
+    padding:0%;
+  }
+.c1{
+  padding-left: auto;
+  padding-right: auto;
+}
+
+article{
+  max-width: 90%;
+  margin: auto;
+}
+#title{
+  font-size: 3rem;
+  line-height: 0.7;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.poster{
+  max-width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-height: 60%;
+
+}
+.inherit{
+  size: inherit;
+  max-width:inherit;
+}
+
+.board{
+  margin: 3rem auto;
+  text-align: center;
+}
+.board img {
+  display: inline;
+  width:30%;
+  margin :1rem;
+  text-align: left;
+}
+
+.board img:hover{
+  box-shadow:-0.5rem 0.5rem 0.3rem rgb(200, 40,0, 1)
+}
+
+
+
